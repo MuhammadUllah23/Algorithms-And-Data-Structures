@@ -36,7 +36,7 @@ function maxSubarraySum(arr, num) {
     return maxSum;
 }
 
-console.log(maxSubarraySum(arr1, 3));
-console.log(maxSubarraySum(arr2, 4));
-console.log(maxSubarraySum(arr3, 2));
-console.log(maxSubarraySum(arr4, 3));
+console.log(maxSubarraySum(arr1, 3)); //15
+console.log(maxSubarraySum(arr2, 4)); // 17
+console.log(maxSubarraySum(arr3, 2)); // 7
+console.log(maxSubarraySum(arr4, 3)); // 9
