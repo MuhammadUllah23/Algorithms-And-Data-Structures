@@ -75,11 +75,11 @@ def countUniqueValuesAi(sortedArr):
 
 
 # Test data for countUniqueValuesAi function
-print(countUniqueValuesAi([1, 1, 1, 1, 1, 2]))         # Output: 2
-print(countUniqueValuesAi([1, 2, 3, 4, 4, 4, 7, 7, 12, 12, 13]))  # Output: 7
-print(countUniqueValuesAi([]))                         # Output: 0
-print(countUniqueValuesAi([1]))                        # Output: 1
-print(countUniqueValuesAi([-2, -1, -1, 0, 1]))         # Output: 4
+# print(countUniqueValuesAi([1, 1, 1, 1, 1, 2]))         # Output: 2
+# print(countUniqueValuesAi([1, 2, 3, 4, 4, 4, 7, 7, 12, 12, 13]))  # Output: 7
+# print(countUniqueValuesAi([]))                         # Output: 0
+# print(countUniqueValuesAi([1]))                        # Output: 1
+# print(countUniqueValuesAi([-2, -1, -1, 0, 1]))         # Output: 4
 
 # Udemy Solution
 
