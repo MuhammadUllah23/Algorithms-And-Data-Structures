@@ -23,10 +23,10 @@ function search(arr, val) {
         let currentElement = arr[middle];
 
         if (arr[middle] < val) {
-            min = middle + 1;
+            min = middle + 1; // search right half
         } 
         else if (arr[middle] > val) {
-            max = middle - 1;
+            max = middle - 1; // search left half
         }
         else {
             return middle;
