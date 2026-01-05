@@ -18,6 +18,13 @@ public class TheLinkedList {
         System.out.println("Last element: " + list.getLast());
         System.out.println("Element at index 1: " + list.get(1));
 
+                // Iterate
+        System.out.print("Traverse list: ");
+        for (int val : list) {
+            System.out.print(val + " -> ");
+        }
+        System.out.println("null");
+
         // Remove elements
         list.removeFirst();
         list.removeLast();
@@ -26,11 +33,5 @@ public class TheLinkedList {
 
         System.out.println("List after removals: " + list);
 
-        // Iterate
-        System.out.print("Traverse list: ");
-        for (int val : list) {
-            System.out.print(val + " -> ");
-        }
-        System.out.println("null");
     }
 }
